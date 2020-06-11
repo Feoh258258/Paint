@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function(e){
       canvas.onmousemove = function(event) {
       let x = event.offsetX; //получаю координаты по оси X
       let y = event.offsetY; //получаю координаты по оси Y
-      ctx.fillRect(x-15, y-15, 7, 7) //fillRect() - этим методом, согласно координатам мышки (x, y отрисовывается прямоугольник в заданых размерах 10х10)
+      ctx.fillRect(x-10, y-10, 7, 7) //fillRect() - этим методом, согласно координатам мышки (x, y отрисовывается прямоугольник в заданых размерах 10х10)
       ctx.fillStyle = myColor;
       }
       canvas.onmouseup = function() {
